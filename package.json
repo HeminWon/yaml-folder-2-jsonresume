@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"description": "transform folder with YAML's files to JSON resume's file",
 	"scripts": {
-		"prepare": "tsc",
+		"build": "tsc",
 		"test": "jest"
 	},
 	"bin": "./dist/cli.js",
