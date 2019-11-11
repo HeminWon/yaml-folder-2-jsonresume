@@ -18,8 +18,8 @@ test:
 
 publish:
     stage: deploy
-    # only:
-    #     - /^version/\d+\.\d+\.\d.*$/
+    only:
+        - /^version/\d+\.\d+\.\d.*$/
     script:
         - echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > .npmrc
         - npm publish
