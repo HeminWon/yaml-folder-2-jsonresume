@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { buildResumeToFile } from './buildResumeToFile'
 import { resolve } from 'path'
 
