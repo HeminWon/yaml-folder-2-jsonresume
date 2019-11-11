@@ -4,7 +4,7 @@
 		"incremental": true,
 		"target": "ES2019",
 		"module": "commonjs",
-		"noEmit": true,
+		"outDir": "./dist/",
 
 		/* Strict Type-Checking Options */
 		"strict": true,
@@ -25,5 +25,7 @@
 		/* Source Map Options */
 		"sourceMap": true,
 		"inlineSources": true
-	}
+	},
+	"include": ["src/**/*"],
+	"exclude": ["node_modules", "tests/**/*"]
 }

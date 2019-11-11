@@ -6,6 +6,9 @@
 		"prepare": "tsc",
 		"test": "jest"
 	},
+	"bin": "./dist/cli.js",
+	"main": "./dist/buildResume.js",
+	"types": "./dist/",
 	"repository": {
 		"type": "git",
 		"url": "git+ssh://git@gitlab.com/pinage404/yaml-folder-2-jsonresume.git"
