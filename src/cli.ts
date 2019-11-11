@@ -18,8 +18,8 @@ async function main(argv: string[]): Promise<void> {
 	}
 
 	try {
-		const inputFolder = resolve(__dirname, '..', argv[2])
-		const outputFile = resolve(__dirname, '..', argv[3])
+		const inputFolder = resolve(argv[2])
+		const outputFile = resolve(argv[3])
 
 		const resume = await buildResumeToFile(inputFolder, outputFile)
 
