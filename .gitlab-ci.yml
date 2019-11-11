@@ -1,0 +1,29 @@
+stages:
+    - test
+    - deploy
+
+image: node:12-alpine
+
+test:
+    stage: test
+    script:
+        - npm install
+        - npm audit
+        - npm test
+        - npm run build
+    artifacts:
+        paths:
+            - dist/
+        expire_in: 30 days
+
+publish:
+    stage: deploy
+    # only:
+    #     - /^version/\d+\.\d+\.\d.*$/
+    script:
+        - echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > .npmrc
+        - npm publish
+    artifacts:
+        paths:
+            - dist/
+        expire_in: 1 hour
