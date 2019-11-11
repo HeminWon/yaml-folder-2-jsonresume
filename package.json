@@ -1,0 +1,42 @@
+{
+	"name": "yaml-folder-2-jsonresume",
+	"version": "1.0.0",
+	"description": "transform folder with YAML's files to JSON resume's file",
+	"scripts": {
+		"prepare": "tsc",
+		"test": "jest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@gitlab.com/pinage404/yaml-folder-2-jsonresume.git"
+	},
+	"keywords": [
+		"yaml",
+		"jsonresume",
+		"resume",
+		"CV",
+		"json",
+		"yml",
+		"json-schema",
+		"json-resume",
+		"CLI"
+	],
+	"license": "ISC",
+	"bugs": {
+		"url": "https://gitlab.com/pinage404/yaml-folder-2-jsonresume/issues"
+	},
+	"homepage": "https://gitlab.com/pinage404/yaml-folder-2-jsonresume#readme",
+	"dependencies": {
+		"polyfill-object.fromentries": "^1.0.1",
+		"quaff": "^4.1.0"
+	},
+	"devDependencies": {
+		"@types/jest": "^24.0.22",
+		"@types/node": "^12.12.7",
+		"jest": "^24.9.0",
+		"prettier": "^1.19.1",
+		"ts-jest": "^24.1.0",
+		"ts-node": "^8.5.0",
+		"typescript": "^3.7.2"
+	}
+}

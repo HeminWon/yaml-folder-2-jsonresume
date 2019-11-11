@@ -1,0 +1,29 @@
+{
+	"compilerOptions": {
+		/* Basic Options */
+		"incremental": true,
+		"target": "ES2019",
+		"module": "commonjs",
+		"noEmit": true,
+
+		/* Strict Type-Checking Options */
+		"strict": true,
+
+		/* Additional Checks */
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+
+		/* Module Resolution Options */
+		"esModuleInterop": true,
+
+		/* Declaration Options */
+		"declaration": true,
+		"declarationMap": true,
+
+		/* Source Map Options */
+		"sourceMap": true,
+		"inlineSources": true
+	}
+}
