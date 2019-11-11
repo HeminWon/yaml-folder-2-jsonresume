@@ -1,6 +1,6 @@
 {
 	"name": "yaml-folder-2-jsonresume",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "transform folder with YAML's files to JSON resume's file",
 	"scripts": {
 		"build": "tsc",
