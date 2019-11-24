@@ -23,8 +23,7 @@
 		"declarationMap": true,
 
 		/* Source Map Options */
-		"sourceMap": true,
-		"inlineSources": true
+		"sourceMap": true
 	},
 	"include": ["lib/**/*"],
 	"exclude": ["node_modules", "tests/**/*"]
