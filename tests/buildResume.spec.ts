@@ -1,4 +1,4 @@
-import { buildResume } from '../src/buildResume'
+import { buildResume } from '../lib/buildResume'
 import { promises as fs } from 'fs'
 
 describe('buildResume', () => {

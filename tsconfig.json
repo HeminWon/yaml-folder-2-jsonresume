@@ -26,6 +26,6 @@
 		"sourceMap": true,
 		"inlineSources": true
 	},
-	"include": ["src/**/*"],
+	"include": ["lib/**/*"],
 	"exclude": ["node_modules", "tests/**/*"]
 }
