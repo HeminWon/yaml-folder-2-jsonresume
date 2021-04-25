@@ -30,7 +30,6 @@
 	},
 	"homepage": "https://gitlab.com/pinage404/yaml-folder-2-jsonresume#readme",
 	"dependencies": {
-		"polyfill-object.fromentries": "^1.0.1",
 		"quaff": "^4.1.0"
 	},
 	"devDependencies": {

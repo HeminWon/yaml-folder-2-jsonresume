@@ -1,5 +1,3 @@
-import 'polyfill-object.fromentries'
-
 import quaff from 'quaff'
 
 function object2array([key, value]: [string, object]): [string, object] {
