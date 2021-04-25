@@ -10,6 +10,9 @@ function object2array([key, value]: [string, object]): [string, object] {
 
 export async function buildResume(inputFolder: string): Promise<object> {
 	const yaml = await quaff(inputFolder)
+	if (typeof yaml !== 'object' || yaml === null) {
+		throw new Error(`"${inputFolder}" should be a path to a folder`)
+	}
 	const resume = Object.fromEntries(Object.entries(yaml).map(object2array))
 	return resume
 }
