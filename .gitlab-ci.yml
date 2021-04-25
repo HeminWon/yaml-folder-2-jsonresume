@@ -7,7 +7,7 @@ image: node:12-alpine
 test:
     stage: test
     script:
-        - npm install
+        - npm ci
         - npm audit
         - npm test
         - npm run build
