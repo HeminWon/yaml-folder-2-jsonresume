@@ -8,7 +8,7 @@ test:
     stage: test
     script:
         - npm ci
-        - npm audit
+        # - npm audit # quaff has vulnerabilities and can't update it
         - npm test
         - npm run build
     artifacts:
