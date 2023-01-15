@@ -1,7 +1,7 @@
 import quaff from 'quaff'
 
 function object2array([key, value]: [string, object]): [string, object] {
-	if (['$schema', 'basics'].includes(key)) {
+	if (['$schema', 'basics', 'meta'].includes(key)) {
 		return [key, value]
 	}
 
