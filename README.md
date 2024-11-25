@@ -37,3 +37,6 @@ resume/
 
 yaml-folder-2-jsonresume resume/ resume.json
 ```
+## Acknowledgment：
+
+This repository is based on the work of [pinage404](https://gitlab.com/pinage404). The original project can be found [here](https://gitlab.com/pinage404/yaml-folder-2-jsonresume).
