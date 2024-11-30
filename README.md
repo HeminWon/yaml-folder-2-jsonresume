@@ -8,6 +8,14 @@ transform folder with YAML's files to JSON resume's file
 yaml-folder-2-jsonresume <inputFolder> <outputFile>
 ```
 
+```shell
+nix develop
+npm install
+# click package.json debug script in vscode
+tsc
+node ./dist/cli.js ./tests/example/input test.json
+```
+
 Files can be YAML, JSON or any types supported by [Quaff](https://www.npmjs.com/package/quaff)
 
 ## Example
