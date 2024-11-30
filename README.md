@@ -12,6 +12,7 @@ yaml-folder-2-jsonresume <inputFolder> <outputFile>
 nix develop
 npm install
 # click package.json debug script in vscode
+npm run build
 tsc
 node ./dist/cli.js ./tests/example/input test.json
 ```
