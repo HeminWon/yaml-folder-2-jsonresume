@@ -1,7 +1,7 @@
-import * as quaff from 'quaff'
+import quaff from 'quaff'
 
 function object2array([key, value]: [string, unknown]): [string, object | unknown[]] {
-    if (['$schema', 'basics', 'meta', 'about'].includes(key)) {
+    if (['$schema', 'basics', 'meta', 'about', 'skills'].includes(key)) {
         return [key, value as object]
     }
     if (typeof value === 'object' && value !== null) {
