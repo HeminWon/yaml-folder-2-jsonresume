@@ -11,7 +11,7 @@
 	"types": "./dist/",
 	"repository": {
 		"type": "git",
-		"url": "git+ssh://git@gitlab.com/pinage404/yaml-folder-2-jsonresume.git"
+		"url": "https://github.com/heminwon/yaml-folder-2-jsonresume.git"
 	},
 	"compilerOptions": {
 	  "esModuleInterop": true,
@@ -30,9 +30,9 @@
 	],
 	"license": "ISC",
 	"bugs": {
-		"url": "https://gitlab.com/pinage404/yaml-folder-2-jsonresume/issues"
+		"url": "https://github.com/heminwon/yaml-folder-2-jsonresume/issues"
 	},
-	"homepage": "https://gitlab.com/pinage404/yaml-folder-2-jsonresume#readme",
+	"homepage": "https://github.com/heminwon/yaml-folder-2-jsonresume#readme",
 	"dependencies": {
 		"quaff": "^5.0.0"
 	},
